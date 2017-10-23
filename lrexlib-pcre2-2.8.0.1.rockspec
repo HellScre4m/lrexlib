@@ -44,4 +44,4 @@ external_dependencies = {
   },
 }
 package = "Lrexlib-PCRE2"
-version = "2.8.0-1"
+version = "2.8.0.1"
