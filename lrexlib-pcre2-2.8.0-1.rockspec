@@ -31,7 +31,7 @@ build = {
         "src/pcre/lpcre2_f.c",
       },
       libdirs = {
-        "$(PCRE_LIBDIR)",
+        "locate libpcre|grep lib/lib",
       },
     },
   },
