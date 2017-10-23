@@ -20,7 +20,7 @@ build = {
         "LUA_COMPAT_5_2",
       },
       incdirs = {
-        "$(PCRE_INCDIR)",
+        "locate libpcre|grep lib/lib",
       },
       libraries = {
         "pcre3",
