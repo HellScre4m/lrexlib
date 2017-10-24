@@ -40,7 +40,7 @@ build = {
 external_dependencies = {
   PCRE = {
     header = "pcre2.h",
-    library = "pcre-2-8",
+    library = "pcre",
   },
 }
 package = "Lrexlib-PCRE2"
