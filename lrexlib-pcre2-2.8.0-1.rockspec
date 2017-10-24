@@ -23,7 +23,7 @@ build = {
         "locate libpcre|grep lib/lib",
       },
       libraries = {
-        "pcre3",
+        "pcre2-8",
       },
       sources = {
         "src/common.c",
@@ -38,9 +38,9 @@ build = {
   type = "builtin",
 }
 external_dependencies = {
-  PCRE = {
+  PCRE2 = {
     header = "pcre2.h",
-    library = "pcre",
+    library = "pcre2-8",
   },
 }
 package = "Lrexlib-PCRE2"
