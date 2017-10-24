@@ -27,8 +27,8 @@ build = {
       },
       sources = {
         "src/common.c",
-        "src/pcre/lpcre2.c",
-        "src/pcre/lpcre2_f.c",
+        "src/pcre2/lpcre2.c",
+        "src/pcre2/lpcre2_f.c",
       },
       libdirs = {
         "locate libpcre|grep lib/lib",
