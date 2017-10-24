@@ -18,7 +18,7 @@ build = {
       defines = {
         "VERSION=\"2.8.0.1\"",
         "LUA_COMPAT_5_2",
-        PCRE2_CODE_UNIT_WIDTH=8,
+        "PCRE2_CODE_UNIT_WIDTH=8"
       },
       incdirs = {
         "locate libpcre|grep lib/lib",
